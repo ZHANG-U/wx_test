@@ -1,0 +1,45 @@
+<!--pages/frame/frame.wxml-->
+<!-- <text>pages/frame/frame.wxml</text> -->
+<view id="top">
+
+<view>
+   <input id="search" value="搜索歌曲名" confirm-type="search" adjust-position="true"></input>
+</view>
+
+<swiper 
+  indicator-dots="{{true}}"
+  autoplay="{{true}}" 
+  interval="{{2000}}" 
+  duration="{{100}}"
+>
+<navigator url="../rank/rank" open-type="switchTab">
+  <swiper-item wx:for="{{imgUrls}}" wx:key="{{index}}" class="kuang">
+    <image src="{{item}}" class="slide-image"/>
+  </swiper-item>
+</navigator>
+</swiper>
+
+
+<view class="music_cont"  wx:for="{{musicList}}" wx:key="{{item.id}}">
+<!-- 一个列表 -->
+<navigator url="../details/details">
+    <view class="music_list">
+      <view class="left">
+        <image src="{{item.musicUrl}}"></image>
+        <view class="t1">{{item.musicName}}</view>
+        <view class="t2">{{item.musicUser}}</view>
+      </view>
+      <view class="right">
+          <image src="../../images/start.png"></image>
+      </view>
+    </view>
+ </navigator>
+</view>
+
+
+
+
+
+
+<!-- top的底部 -->
+</view>

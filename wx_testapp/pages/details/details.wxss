@@ -1,0 +1,23 @@
+/* pages/details/details.wxss */
+
+
+.details{background:#9999ff91;color:#fff;text-align: center;padding: 0.9rem;}
+.details .m_title{width: 100%;height: 2.5rem;line-height: 2.5rem;}
+.details .name{width: 100%;height: 2rem;line-height: 2rem;font-size: 1rem;}
+.details .d_bq{width: 20%;height: 1.2rem;border: 0.1rem solid #fff;border-radius: 0.8rem;margin: 0.5rem auto;font-size: 0.9rem;}
+
+
+.lyrics{width: 100%;height: 50%;margin-top:2rem;line-height: 2rem; font-size: 0.85rem;}
+
+.d_btm{height:7rem;border:0.1rem solid #000;width: 100%;position: fixed;bottom: 0;left: 0;background:#99f;padding: 0.8rem 0;}
+.play{width: 100%;height: 2.5rem;display: flex;justify-content: space-around;}
+.play image{width: 10%;height: 70%;}
+
+.jindu{width: 100%;height: 2rem;font-size: 0.7rem;display: flex;justify-content: space-around;}
+.jindu .tiao{width: 70%;height: 0.1rem;background: #fff;margin-top: 0.3rem;}
+
+
+
+
+.others{height: 3rem;width: 100%;display: flex;justify-content: space-around;}       
+.others image{width: 7%;height: 50%;}

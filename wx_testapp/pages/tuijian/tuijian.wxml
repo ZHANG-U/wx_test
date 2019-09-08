@@ -1,0 +1,59 @@
+<view class="tj_cont" wx:for="{{tj_list}}">
+  <view class="tj_title">
+    <view class="tj_left">
+      <image src="{{item.iconUrl}}"></image>
+      <view class="tj_icon">{{item.author}}</view>
+    </view>
+    <!-- 标题右边 -->
+    <view class="tj_right"><text>+关注</text></view>
+  </view>
+
+  <view>{{item.introduce}}</view>
+
+  <block>
+    <video 
+      id="myVideo" 
+      src="{{src}}" 
+      danmu-list="{{danmuList}}" 
+      enable-danmu 
+      danmu-btn 
+      controls
+    >
+    </video>
+  </block>
+
+  <view class="tj_bottom">
+    <view>{{item.biaoqian}}</view>
+  </view>
+<!-- 最外框底部 -->
+</view>
+
+<!-- <view class="tj_cont">
+  <view class="tj_title">
+    <view class="tj_left">
+      <image src=""></image>
+      <view class="tj_icon">XXX作者</view>
+    </view> -->
+    <!-- 标题右边 -->
+    <!-- <view class="tj_right"><text>+关注</text></view>
+  </view>
+
+  <view>这是一段推荐的屁话，谢谢,这是一段推荐的屁话，谢谢</view>
+
+  <video 
+    id="myVideo" 
+    src="{{src}}" 
+    danmu-list="{{danmuList}}" 
+    enable-danmu 
+    danmu-btn 
+    controls
+    title="《同道殊途》- 豪华人声版"
+    autoplay="ture"
+  >
+  </video>
+
+  <view class="tj_bottom">
+    <view>#行走的cd机</view>
+  </view> -->
+<!-- 最外框底部 -->
+<!-- </view> -->

@@ -1,0 +1,29 @@
+
+<view class="rank_frame">
+
+ <view class="title">MUSIC'S音乐排行榜</view>
+
+ <view class="rank_cont">
+ <!-- 列表 -->
+
+ 
+      <view class="rank_list" wx:for="{{rank_list}}">
+        <view class="rank_left">
+          <image src="{{item.rankIconUrl}}"></image>
+        </view>
+        <view class="rank_right">
+          <view class="biaoti">{{item.rankTitle}}</view>
+          <block  wx:for="{{item.rank_list_child}}">
+          <view>{{item.childList}}</view>
+          </block>
+        </view>
+    </view>
+
+ </view>
+
+
+
+
+
+
+</view>

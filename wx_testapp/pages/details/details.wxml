@@ -1,0 +1,83 @@
+
+<!-- 详情页 -->
+
+<view class="details">
+
+  <view class="m_title">浮生见雨</view>
+  <view class="name">——张威科(Vk)——</view>
+  <view class="d_bq">原创</view>
+
+  <view class="lyrics">
+        <view>浮生见雨 - Vk</view>
+      <view>词：慕清明</view>
+        <view>曲：银临 </view>
+      <view>编曲：灰原穷</view>
+        <view>分轨混音：Wuli包子</view>
+      <view>人声混音：维她命 </view>
+        <view>逐舟轻云</view>
+      <view>忽而跃下重霄以身相殉</view>
+        <view>流连伞沿的余韵</view>
+      <view>泪垂桃叶衣襟</view>
+        <view>春池微粼</view>
+      <view>一痕孤独心事涟漪无尽</view>
+      <view>有不能说出的原因</view>
+      <view>在每双眼眸中时痛时隐</view>
+        <view>万籁阒寂</view>
+      <view>与天穹道别离</view>
+        <view>捐躯凡间沧海桑田七情六欲</view>
+      <view> 从生到死的痴迷</view>
+        <view>寥落沾衣</view>
+      <view> 行人擦肩槐梦里</view>
+        <view>哪怕终究与寒夜相拥着逝去</view>
+      <view>黑暗中可听清自己</view>
+  </view>
+
+  <view class="d_btm">
+
+    <view class="others">
+      <image src="/images/我喜欢.png"></image>
+      <image src="/images/下载.png"></image>
+      <image src="/images/评论.png"></image>
+      <image src="/images/分享.png"></image>
+      <image src="/images/点点.png"></image>
+    </view>
+
+    <view class="jindu">
+      <view class="start">00:00</view>
+      <view class="tiao"></view>
+      <view class="end">03:52</view>
+    </view>
+
+    <view class="play">
+        <image src="/images/循环.png"></image>
+        <image src="/images/上一首.png"></image>
+        <image src="/images/详情播放.png"></image>
+        <image src="/images/下一首.png"></image>
+        <image src="/images/包含歌单.png"></image>
+    </view>
+    
+  </view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</view>

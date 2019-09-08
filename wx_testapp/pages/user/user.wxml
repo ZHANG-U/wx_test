@@ -1,0 +1,61 @@
+<view class="user_my">
+<!-- 头部 -->
+  <view class="user_top">
+    <view class="top_shang">
+      <view class="top_left"></view>
+        <image src="http://img3.imgtn.bdimg.com/it/u=1639664029,692156756&fm=11&gp=0.jpg" class="touxiang"></image>
+        <text style="margin-top:1.5rem; color:#fff;font-size:1.1rem;">秃头小张呀</text>
+      <view class="daka">
+        <image src="/images/打卡记录.png" class="img"></image>
+        <text style="font-size:0.9rem; line-height:1.5rem;color:#1afa29;display:inline-block;">6天</text>
+      </view>
+    </view>
+    <view class="top_xia">
+      <view class="guan">关注0</view>
+      <view class="fans">粉丝0</view>
+      <view class="dong">动态0</view>
+    </view>
+  </view>
+  <!-- 中间图标 -->
+  <view class="user_icons">
+    <view class="icons_one">
+      <image src="/images/最近播放.png"></image>
+      <text>最近播放</text>
+    </view>
+    <view class="icons_two">
+      <image src="/images/心.png"></image>
+      <text>喜欢</text>
+    </view>
+    <view class="icons_three">
+      <image src="/images/歌单.png"></image>
+      <text>我的歌单</text>
+    </view>
+    <view class="icons_four">
+      <image src="/images/本地下载.png"></image>
+      <text>本地下载</text>
+    </view>
+  </view>
+  <!-- 下列表 -->
+  <view class="user_bottom">
+    <view class="btom_lie">
+      <image src="/images/消息通知.png"></image>
+      <text>消息通知</text>
+      <image src="/images/右箭头.png" class="user_right"></image>
+    </view>
+    <view class="btom_lie">
+      <image src="/images/消息通知.png"></image>
+      <text>开通会员</text>
+      <image src="/images/右箭头.png" class="user_right"></image>
+    </view>
+    <view class="btom_lie">
+      <image src="/images/消息通知.png"></image>
+      <text>我的动态</text>
+      <image src="/images/右箭头.png" class="user_right"></image>
+    </view>
+    <view class="btom_lie">
+      <image src="/images/消息通知.png"></image>
+      <text>设置</text>
+      <image src="/images/右箭头.png" class="user_right"></image>
+    </view>
+  </view>
+</view>

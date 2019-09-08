@@ -1,0 +1,6 @@
+{
+  "usingComponents": {},
+
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "音乐馆"
+}

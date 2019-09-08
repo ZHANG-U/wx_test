@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/frame/frame",
+    "pages/user/user",
+    "pages/tuijian/tuijian",
+    "pages/rank/rank",
+    "pages/details/details"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#99f",
+    "navigationBarTitleText": "MUSIC'S ",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "backgroundColorTop": "#ccc"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#99f",
+    "list": [
+      {
+        "pagePath": "pages/frame/frame",
+        "text": "音乐馆",
+        "iconPath": "images/music.png",
+        "selectedIconPath": "images/music_active.png"
+      },
+      {
+        "pagePath": "pages/rank/rank",
+        "text": "排行榜",
+        "iconPath": "images/rank.png",
+        "selectedIconPath": "images/rank_active.png"
+      },
+      {
+        "pagePath": "pages/tuijian/tuijian",
+        "text": "推荐",
+        "iconPath": "images/tj.png",
+        "selectedIconPath": "images/tj_active.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/my_active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

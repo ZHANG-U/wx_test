@@ -1,0 +1,42 @@
+/* pages/frame/frame.wxss */
+#top{
+  padding:0 1rem;
+}
+
+#search{
+ width: 80%;
+ height:2rem;
+ border: 0.1rem solid #ccc;
+ margin: 0.8rem;
+ border-radius: 0.8rem;
+ padding-left: 2rem;
+ font-size: 0.8rem;
+ background: #ccc;
+}
+.kuang{
+  border-radius: 0.8rem;
+}
+.slide-image{
+  width: 100%;
+  height: 8rem;
+}
+
+.music_cont{margin-top: 1rem;}
+/* 列表 */
+.music_list{
+  width: 100%;
+  height: 8rem;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 0.6rem;
+  margin-bottom: 1rem;
+}
+.music_list .left{
+ float: left;
+  width: 80%;
+  height: 8rem;
+}
+.music_list .left image{width:45%;height: 100%;margin-right: 0.5rem;float: left;border-radius: 0.6rem;}
+.music_list .left .t1{width: 50%;height: 1.5rem;float: left;padding:0.3rem 0;margin-top: 2rem;}
+.music_list .left .t2{font:0.8rem/1.2rem "";}
+.music_list .right{width: 19%;height: 7rem;float: right}
+.music_list .right image{width: 50%;height: 1.8rem;margin-top: 3rem;margin-left: 1.3rem;}
